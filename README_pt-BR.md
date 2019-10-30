@@ -1,6 +1,6 @@
 
 # bloc_boirplate
-Uma biblioteca que contém um padrão de bloco bem definido, mostrando como é fácil fazer solicitações API-REST e manipulação de erros usando BLoC.
+Uma biblioteca que contém um padrão de bloco bem definido, mostrando como é fácil fazer solicitações API-REST e manipulação de erros usando BLoC. O código padrão já tem um exemplo de API-REST.
 
 Em caso de erro de conexão, erro no servidor, e qualquer problema de comunicação, automaticamente será exibido um aviso: 
 "sem conexão, deseja tentar se reconectar?". 
