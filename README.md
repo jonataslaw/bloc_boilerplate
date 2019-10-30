@@ -4,8 +4,8 @@ A library that contains a well-defined bloc pattern, showing how easy it is to m
 ## How to use?
 
 ```git clone https://github.com/JonnyBorges/bloc_boirplate 
-```
-```flutter run
+
+flutter run
 ```
 ## Why do we use http instead of dio?
 To give compatibility with flutter_web, the last update of dio had a major code breaking. In addition, there is a bug in "error handling" that crashes some devices (testing on a 2 million user application where 2809 crashed).
