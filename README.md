@@ -1,6 +1,15 @@
 # bloc_boirplate
 A library that contains a well-defined bloc pattern, showing how easy it is to make API-REST requests and error handling using BLoC.
 
+In case of connection error, server error, and any communication problem, a warning will automatically be displayed: "No connection, would you like to try reconnecting?".
+
+To change the API to that of your server, just change lib/shared/api_constants.dart and change your baseurl and api address to yours. Then you can get your json code, and simply paste in:
+
+``` 
+https://app.quicktype.io/
+```
+and change the model in: lib/models/post_model.dart by the generated Dart file. In lib/repository/post_repository.dart you can duplicate or create new get/post/put/delete methods.
+
 ## How to use?
 
 ``` 
